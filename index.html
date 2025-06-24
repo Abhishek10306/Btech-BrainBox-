@@ -43,9 +43,15 @@
         <div class="input-area">
             <textarea id="question-input" placeholder="Type your question here, or upload an image below..."></textarea>
             <div class="input-actions">
-                <label for="image-upload" id="image-upload-label">
-                    <i class="fas fa-camera"></i> Upload Image
-                </label>
+                 <!-- Button Group for Upload and Capture -->
+                <div class="button-group">
+                    <label for="image-upload" id="image-upload-label" class="input-btn">
+                        <i class="fas fa-upload"></i> Upload
+                    </label>
+                    <button id="capture-image-btn" class="input-btn">
+                        <i class="fas fa-camera"></i> Capture
+                    </button>
+                </div>
                 <input type="file" id="image-upload" accept="image/*">
                 <div id="image-preview"></div>
             </div>
@@ -66,10 +72,21 @@
                 <div id="detailed-solution-text"></div>
             </div>
         </div>
-
     </div>
 
-    <!-- Link to your external JS file (at the end of body for faster page load) -->
+    <!-- Camera Modal -->
+    <div id="camera-modal" class="modal-overlay">
+        <div class="modal-content">
+            <video id="video-stream" autoplay playsinline></video>
+            <canvas id="image-canvas" style="display:none;"></canvas>
+            <div class="modal-controls">
+                <button id="snap-photo-btn" class="modal-btn snap-btn"><i class="fas fa-camera"></i> Snap</button>
+                <button id="close-modal-btn" class="modal-btn close-btn"><i class="fas fa-times"></i> Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to your external JS file -->
     <script src="app.js"></script>
 </body>
 </html>

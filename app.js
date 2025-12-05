@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', () => {
         setLoading(true);
 
         // IMPORTANT: Replace with your own personal API key.
-        const API_KEY = "AIzaSyDlk_YHMKWBHPAZ9ta8aUIN8IIHpJLSaJQ"; // <<< PUT YOUR KEY HERE
+        const API_KEY = "AIzaSyClhxwFCpSt3omx0jSXNmgil__ziJMhRxo"; // <<< PUT YOUR KEY HERE
         const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
         
         const prompt = `

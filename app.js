@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // const API_KEY = "AIzaSyClhxwFCpSt3omx0jSXNmgil__ziJMhRxo"; // ⚠️ Keep it private!
         // const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
         // --
-        const API_KEY = "AIzaSyC-2THQq7gAicQneqPBwL3USNLV9gX2PZk";
+        const API_KEY = "AIzaSyA6A_KXgOswnLbW3ZA-HvzRFJzZ511gx0o";
         const MODEL_NAME = "gemini-2.5-flash";
         const API_URL = `https://generativelanguage.googleapis.com/v1/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 

@@ -122,9 +122,14 @@ document.addEventListener('DOMContentLoaded', () => {
         AIzaSyAhJI4aua4d3TZvFaSx02NWV8uGbL52eb8
         // --
         // const API_KEY = "AIzaSyA6A_KXgOswnLbW3ZA-HvzRFJzZ511gx0o";
-        const API_KEY = "AIzaSyAhJI4aua4d3TZvFaSx02NWV8uGbL52eb8";
-        const MODEL_NAME = "gemini-2.5-flash";
-        const API_URL = `https://generativelanguage.googleapis.com/v1/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
+        // const API_KEY = "AIzaSyAhJI4aua4d3TZvFaSx02NWV8uGbL52eb8";
+        // const MODEL_NAME = "gemini-2.5-flash";
+        // const API_URL = `https://generativelanguage.googleapis.com/v1/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
+
+        const API_KEY = "AIzaSyBzIPE-c5jZFOWI38na_OqKYwCOyZjeUWA"; // use a new key (revoke the old one)
+        const MODEL_NAME = "gemini-1.5-flash";
+
+        const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL_NAME}:generateContent?key=${API_KEY}`;
 
         // --
         

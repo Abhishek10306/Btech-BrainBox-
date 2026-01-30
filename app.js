@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // const API_KEY = "AIzaSyClhxwFCpSt3omx0jSXNmgil__ziJMhRxo"; // ⚠️ Keep it private!
         // const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
-        AIzaSyAhJI4aua4d3TZvFaSx02NWV8uGbL52eb8
+        // AIzaSyAhJI4aua4d3TZvFaSx02NWV8uGbL52eb8
         // --
         // const API_KEY = "AIzaSyA6A_KXgOswnLbW3ZA-HvzRFJzZ511gx0o";
         // const API_KEY = "AIzaSyAhJI4aua4d3TZvFaSx02NWV8uGbL52eb8";
